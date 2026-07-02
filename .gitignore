@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+
+# Playwright
+.playwright-cli/
+
+# Session data (contains cookies, never commit)
+.xhs_scraper/
+storage_state.json
+cookies.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data outputs
+*.json
+!references/*.json
+*.csv
+*.md
+!README.md
+!SKILL.md
+!references/*.md
